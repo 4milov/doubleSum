@@ -5,8 +5,8 @@ public class Main {
 
         public static double sum(double[] numbers) {
             double sum = 0.0;
-            for(int i = 0; i < numbers.length; i++){
-                sum = sum + numbers[i];
+            for (double number : numbers) {
+                sum = sum + number;
             }
             return sum;
     }
